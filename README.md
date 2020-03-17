@@ -1,6 +1,6 @@
 # sack-livescore-app
 
-##setting up the enviroment
+## setting up the enviroment
 
 1. Fork the project and clone it to your computer
 2. [Set up the dev enviorment](https://phonegap.com/getstarted/)
