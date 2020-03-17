@@ -13,6 +13,10 @@
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
        <!-- <meta http-equiv="Content-Security-Policy"
              content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"/> -->
+             <meta http-equiv="Content-Security-Policy"
+      content="default-src * 'self' data: gap: 'unsafe-inline' 'unsafe-eval';
+      style-src * 'self' 'unsafe-inline' 'unsafe-eval' gap:;
+      script-src * 'self' 'unsafe-inline' 'unsafe-eval' gap:; frame-src *;">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
           name='viewport'/>
     <title>Live Score Update</title>
@@ -30,6 +34,7 @@
     <script src="assets/js/stomp.min.js"></script>
     <script src="app.js"></script>
     <script src="assets/js/a076d05399.js"></script>
+    <script>init();</script>
 
 </head>
 <body>
