@@ -13,17 +13,15 @@
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
        <!-- <meta http-equiv="Content-Security-Policy"
              content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"/> -->
-             <meta http-equiv="Content-Security-Policy"
-      content="default-src * 'self' data: gap: 'unsafe-inline' 'unsafe-eval';
-      style-src * 'self' 'unsafe-inline' 'unsafe-eval' gap:;
-      script-src * 'self' 'unsafe-inline' 'unsafe-eval' gap:; frame-src *;">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src *  'unsafe-inline'; script-src *  'unsafe-inline'; media-src *">
+       
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
           name='viewport'/>
     <title>Live Score Update</title>
 
      <!--     Fonts and icons     -->
      <link href="assets/css/fontcss.css" rel="stylesheet">
-     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
      <!-- CSS Files -->
      <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
      <link href="assets/css/paper-kit.css?v=2.2.2" rel="stylesheet"/>
